@@ -8,6 +8,6 @@ function generatePromise() {
 }
 
 generatePromise().then((data) => {
-	const element = document.getElemenetById("output");
+	const element = document.getElementById("output");
 	element.innerText = data;
 })
