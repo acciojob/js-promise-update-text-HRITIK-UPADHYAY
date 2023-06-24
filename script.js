@@ -7,8 +7,7 @@ function generatePromise() {
 	})
 }
 
-let prom = generatePromise();
-prom.then((data) => {
+generatePromise().then((data) => {
 	const div = document.getElemenetById("output");
 	div.innerText = data;
 })
